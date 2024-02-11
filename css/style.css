@@ -101,3 +101,8 @@ ol li{
     margin: 0.5rem;
     margin-left: 30px;
 }
+@media (prefers-reduced-motion: reduce) {
+    .gif{
+        display: none;
+    }
+  }
